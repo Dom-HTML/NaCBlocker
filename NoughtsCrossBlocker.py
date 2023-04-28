@@ -1,6 +1,6 @@
 class NCGrid:
     def __init__(self):
-        self.board = ["E"]*9
+        self.board = ["~"]*9
 
     def getIndex(self, pos):
         pos = str(pos).strip()
